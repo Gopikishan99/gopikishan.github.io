@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+  }
+  
+  body{
+    background-color: #344a72;
+  }
+  
+  div.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(158, 135, 135);
+    padding: 30px;
+    box-shadow: 0 50px 50px -50px darkslategray;
+  }
+  
+  div.container div.myform
+  {
+    width: 250px;
+    height: 270px;
+    margin-right: 30px;
+  }
+  
+  div.container div.myform h2
+  {
+    margin-left: 100px;
+    color: #af1891;
+    margin-bottom: 25px;
+  }
+  div.container div.myform h5{
+    padding: 1px;
+
+  }
+  div.container div.myform a{
+    color: #682a08;
+  }
+  
+  div.container div.myform input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 80%;
+    border-bottom: 2px solid #060631;
+    margin-bottom: 25px;
+    padding: 7px 0;
+    font-size: 14px;
+  }
+  div.container div.myform button{
+    color: rgb(176, 169, 169);
+    background-color: #22962a;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 8px 12px;
+    font-weight: 50;
+    margin-left: 90px;
+  }
+  
